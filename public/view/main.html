@@ -1,0 +1,45 @@
+<html ng-app = "main" ng-controller='getdata'>
+<head>
+  <title>Dlabs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/stylesheet/bootstrap.min.css">
+  <link href="/stylesheet/style.css" type="text/css" rel="stylesheet">
+<script src="/lib/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js"></script>
+
+<script src="/javascript/control.js"></script>
+</head>
+
+<body>
+
+<div class="top" style="width: 100%">
+    <div>
+    Contact Us +91 9791488984 | iamrahulgupta231@outlook.com 
+    </div>
+<a style="padding:10px;float:right" href="/logout" class="btn btn-warning"><span class="fa fa-twitter"></span>Log Out</a>
+    
+  </div>
+
+  <div class="logo" style="width: 100%">
+    <div>
+      <table>
+        <tr>
+          <td width="60%" style="font-size:50px;font-family:forte;"> <font color="#428bca"> Image</font><font color="#000"> Scrapper</font> </td>
+         <td> <br> <br>
+            <font size="4px"> 
+             <a href="#!/">Main</a> 
+             <a href="#!/Previous">Previous Search</a>
+              <a href="#!/display">Photos</a>
+              <a href="#!/contact">CONTACT US</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+<div ng-view></div>
+</body>
+</html>

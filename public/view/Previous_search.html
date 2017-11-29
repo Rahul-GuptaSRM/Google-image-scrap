@@ -1,0 +1,8 @@
+
+<div class="container" ng-init="initialize()">
+  <h2>List Group With Custom Content</h2>
+  <div class="list-group" ng-repeat =  "event in events.search track by $index">
+    <a  ng-click="getimage(event);" class="list-group-item">{{event}}
+    </a>
+  </div>
+</div>
